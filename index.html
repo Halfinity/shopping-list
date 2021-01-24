@@ -8,7 +8,7 @@
   </head>
   <body>
 
-    <h1>My shopping list</h1>
+    <h1>shopping list</h1>
 
     <div>
       <label for="item">Enter a new item:</label>
@@ -19,33 +19,6 @@
     <ul>
 
     </ul>
-
-    <script>
-      const list = document.querySelector('ul');
-      const input = document.querySelector('input');
-      const button = document.querySelector('button');
-
-        button.onclick = function() {
-        let myItem = input.value;
-        input.value = '';
-
-        const listItem = document.createElement('li');
-        const listText = document.createElement('span');
-        const listBtn = document.createElement('button');
-
-        listItem.appendChild(listText);
-        listText.textContent = myItem;
-        listItem.appendChild(listBtn);
-        listBtn.textContent = 'Delete';
-        list.appendChild(listItem);
-
-        listBtn.onclick = function(elements) {
-          list.removeChild(listItem);
-        }
-
-        input.focus();
-      }
-      
-    </script>
+    <script src="main.js"></script>
   </body>
 </html>
