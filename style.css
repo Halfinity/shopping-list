@@ -1,0 +1,22 @@
+li {
+  margin-bottom: 12px;
+}
+
+li button {
+  font-size: 10px;
+  margin-left: 17px;
+  color: rgb(68, 59, 59);
+}
+
+h1 {
+  font-variant: small-caps;
+  font-family: Palatino, URW Palladio L, serif;
+  color: rgb(170, 33, 33);
+}
+
+div {
+  font-size: 20px;
+  font-variant: small-caps;
+  font-family: Palatino, URW Palladio L, serif;
+  color: rgb(0, 0, 0);
+}
